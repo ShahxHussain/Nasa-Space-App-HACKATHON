@@ -1,0 +1,31 @@
+.bottom-buttons {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottom-btn {
+  background-color: #5c875e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem; /* Set a default width */
+  width: 40px;
+  transition: width 0.3s; /* Smooth transition for width change */
+}
+
+.bottom-btn span {
+  margin-left: 10px;
+}
+
+.bottom-btn.open {
+  width: 200px; /* Expanded width for active button */
+  padding-right: 20px; /* Extra padding for the text */
+}
