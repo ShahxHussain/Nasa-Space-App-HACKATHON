@@ -29,7 +29,7 @@
 
 .join-discord-button {
     background-color: white;
-    color: #5865f2;
+    color: #5c875e;
     border: none;
     border-radius: 5px;
     padding: 15px 30px;
@@ -39,8 +39,8 @@
 }
 
 .join-discord-button:hover {
-    background-color: #404eed; /* Darker blue for hover */
-    transform: scale(1.05); /* Slight zoom on hover */
+    /* background-color: ; Darker blue for hover */
+    transform: scale(1.2); /* Slight zoom on hover */
 }
 
 /* Keyframe animations */
