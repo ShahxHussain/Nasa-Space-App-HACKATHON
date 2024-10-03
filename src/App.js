@@ -6,6 +6,7 @@ import BottomButtons from './components/BottomButtons';
 import Routing from './components/Earth';
 import Sidebar from './components/Sidebar';
 import Team from './pages/Team';
+import Mission from './pages/OurMission';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       
         <Route path= "/" element = {<Routing />} />
         <Route path="/team" element={<Team />} />
-        
+        <Route path="/ourmission" element={<Mission />} />
      
     </Routes>
   );

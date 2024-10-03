@@ -1,0 +1,81 @@
+/* Overall container styling */
+.mission-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Title styling */
+  .mission-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #3b6658;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif; /* You can use any aesthetic font here */
+    animation: slideDown 1s ease-in-out;
+  }
+  
+  /* Text styling */
+  .mission-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 20px;
+    animation: fadeInText 1.5s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Animation for mission container */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation for title */
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation for text */
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Make the page responsive */
+  @media (max-width: 768px) {
+    .mission-container {
+      padding: 20px;
+    }
+  
+    .mission-title {
+      font-size: 2rem;
+    }
+  
+    .mission-text {
+      font-size: 1rem;
+    }
+  }
+  
