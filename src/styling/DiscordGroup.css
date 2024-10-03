@@ -1,0 +1,66 @@
+.discord-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5c875e; /* Discord's primary color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out; /* Animation for fading in */
+}
+
+.discord-icon {
+    font-size: 100px;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite; /* Bouncing animation for the icon */
+}
+
+.discord-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.discord-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.join-discord-button {
+    background-color: white;
+    color: #5865f2;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.join-discord-button:hover {
+    background-color: #404eed; /* Darker blue for hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
