@@ -4,8 +4,8 @@ import '../styling/Globe.css'; // Keep your existing styling
 
 const InteractiveGlobe = () => {
   const globeEl = useRef();
-  const [lat, setLat] = useState(0);
-  const [lng, setLng] = useState(0);
+  const [lat, setLat] = useState();
+  const [lng, setLng] = useState();
 
   // Handle form submission to update the globe position
   const handleSubmit = (event) => {
@@ -27,7 +27,7 @@ const InteractiveGlobe = () => {
       />
 
       <form onSubmit={handleSubmit} className="coordinate-form">
-        <label>
+        <label style={{color:"white"}}>
           Latitude:
           <input
             type="number"
@@ -39,7 +39,7 @@ const InteractiveGlobe = () => {
             max="90"
           />
         </label>
-        <label>
+        <label style={{color:"white"}}>
           Longitude:
           <input
             type="number"
