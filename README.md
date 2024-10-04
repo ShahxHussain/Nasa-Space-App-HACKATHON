@@ -1,4 +1,5 @@
-# <img src="s" alt="Logo" width="90" height="90"> <p align="center"><b>Harmony Heroes: Bridging Gender Equality and Climate Action</b></p>
+# <img src="src/assets/logo.png" alt="Logo" width="120" height="120"> 
+# <p align="center"><b>Harmony Heroes: Bridging Gender Equality and Climate Action</b></p>
 
 ## Introduction 🌍
 
@@ -13,13 +14,14 @@ The United Nations Sustainable Development Goals (SDGs) provide a blueprint for 
 ### Objectives 🎯
 
 **Harmony Heroes** creates an interactive website that not only models the intersection of gender inequality and climate displacement but also provides resources and real-time support to affected individuals. It incorporates a 3D visualization of climate refugee data, mentorship programs, healthcare support, and partnerships for distributing essential hygiene products to women refugees.
+
 ### Proposed Solutions 💡
 
 **Harmony Heroes** creates an interactive website that not only models the intersection of gender inequality and climate displacement but also provides resources and real-time support to affected individuals. It incorporates a 3D visualization of climate refugee data, mentorship programs, healthcare support, and a way for distributing essential hygiene products to women refugees.
 
 ## **What Problem Does It Solve?**🌈
 
- **Harmony Heroes** addresses the dual challenge of climate displacement and gender inequality by providing a comprehensive digital platform for climate refugees. Through real-time data modeling, community support, and access to essential resources, we aim to mitigate the gendered impacts of climate change and promote sustainable development.
+**Harmony Heroes** addresses the dual challenge of climate displacement and gender inequality by providing a comprehensive digital platform for climate refugees. Through real-time data modeling, community support, and access to essential resources, we aim to mitigate the gendered impacts of climate change and promote sustainable development.
 
 ---
 
@@ -51,20 +53,26 @@ The United Nations Sustainable Development Goals (SDGs) provide a blueprint for 
 ## Targeted SDGs 🌱
 
 ### SDG 5: Gender Equality
-<img src="./SDG5.gif" alt="SDG 5" width="100" height="100">
+<img src="src/assets/sdg5.png" alt="SDG 5" width="100" height="100">
 
 Promoting gender equality is essential for sustainable development. Our project highlights how climate change disproportionately impacts gender minorities and proposes solutions to address these disparities.
 
 ### SDG 13: Climate Action
-<img src="./SDG13.gif" alt="SDG 13" width="100" height="100">
+<img src="src/assets/sdg13.png" alt="SDG 13" width="100" height="100">
 
 Addressing climate change is crucial for the survival of marginalized communities. Our solutions aim to mitigate climate impacts while promoting gender equity.
-- **SDG 3: Good Health and Well-being**  
-  Providing access to healthcare resources, mental health support, and reproductive health for displaced women contributes to SDG 3, promoting well-being for all. ❤️
 
-- **SDG 17: Partnerships for the Goals**  
-  Harmony Heroes promotes collaboration between NGOs, community organizations, and global networks to ensure comprehensive support for climate refugees, aligning with SDG 17. 🤝
+### SDG 3: Good Health and Well-being  
+<img src="src/assets/sdg3.png" alt="SDG 3" width="100" height="100">
 
+Providing access to healthcare resources, mental health support, and reproductive health for displaced women contributes to SDG 3, promoting well-being for all. ❤️
+
+### SDG 17: Partnerships for the Goals  
+<img src="src/assets/sdg17.png" alt="SDG 17" width="100" height="100">
+
+Harmony Heroes promotes collaboration between NGOs, community organizations, and global networks to ensure comprehensive support for climate refugees, aligning with SDG 17. 🤝
+
+---
 
 ## Into The Future 🚀
 
@@ -81,10 +89,10 @@ By addressing these intertwined issues, our project aims to empower communities 
 [Check out our presentation slides here!](https://www.canva.com/design/DAFwJ9aHDQ4/DOlRCSOAgig9s_OOQrHtaw/edit?utm_content=DAFwJ9aHDQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Website 🌐
-[Visit our website here!](https://reconxploration.co/index.html)
+[Visit our website here!](https://harmony-heroes.vercel.app/)
 
 ## Final Video 🎥
 [Watch our final video here!](https://www.youtube.com/watch?feature=shared&v=Blopp24t1p0)
 
 ## Our Amazing Team 👩‍👩‍👧‍👦
-![Team](./team.png)
+<img src="src/assets/team.png" alt="SDG 17" >
