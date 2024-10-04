@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# <img src="s" alt="Logo" width="90" height="90"> <p align="center"><b>Harmony Heroes: Bridging Gender Equality and Climate Action</b></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction 🌍
 
-## Available Scripts
+The United Nations Sustainable Development Goals (SDGs) provide a blueprint for peace and prosperity for people and the planet. Among these goals, **SDG 5: Gender Equality** and **SDG 13: Climate Action** are crucial. This project aims to explore the intersection of climate change and gender inequality, showcasing how these issues are interlinked and proposing solutions that promote equality and sustainable development for all.
 
-In the project directory, you can run:
+![Climate and Gender](./idea.jpg)
 
-### `npm start`
+## Problem Statement & Solution 🛠️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Challenge:** Climate refugees face increasing vulnerability due to the lack of legal recognition, insecure living conditions, and inadequate access to resources. Gender inequality worsens these challenges, as women disproportionately bear the brunt of climate-related displacement. Our project addresses the need for a global solution that bridges gender equity with climate action.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Objectives 🎯
 
-### `npm test`
+**Harmony Heroes** creates an interactive website that not only models the intersection of gender inequality and climate displacement but also provides resources and real-time support to affected individuals. It incorporates a 3D visualization of climate refugee data, mentorship programs, healthcare support, and partnerships for distributing essential hygiene products to women refugees.
+### Proposed Solutions 💡
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Harmony Heroes** creates an interactive website that not only models the intersection of gender inequality and climate displacement but also provides resources and real-time support to affected individuals. It incorporates a 3D visualization of climate refugee data, mentorship programs, healthcare support, and a way for distributing essential hygiene products to women refugees.
 
-### `npm run build`
+## **What Problem Does It Solve?**🌈
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ **Harmony Heroes** addresses the dual challenge of climate displacement and gender inequality by providing a comprehensive digital platform for climate refugees. Through real-time data modeling, community support, and access to essential resources, we aim to mitigate the gendered impacts of climate change and promote sustainable development.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **What Do People Gain?**
 
-### `npm run eject`
+- **Climate Refugees** gain access to mentorship programs, essential health resources, and a supportive community where their voices are heard. 🤝
+  
+- **Researchers** gain access to open-source data on climate and gender intersections, fostering further study and policy recommendations. 📊
+  
+- **Global Users** gain awareness of the growing issue of climate refugees and can contribute to ongoing efforts through donations, advocacy, and community support. 🌐
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **Where is the Opportunity?**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🚀 **Harmony Heroes** offers a unique opportunity to bridge the gap between climate change action and gender equality by empowering the most vulnerable populations—women climate refugees. With a platform designed to educate, support, and mobilize, our solution encourages collaboration across sectors to address this humanitarian crisis.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## **Key Features:**
 
-## Learn More
+1. **3D Earth Visualization:** 🌎  
+   Our platform features an interactive globe where users can explore global data on climate refugee displacement. By clicking on different regions, users can view visualized data on displacement patterns and the specific gender-based challenges refugees face.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Mentorship Programs:** 💬  
+   A mentorship network specifically designed for women refugees, offering emotional support, skill-building, and practical advice. The program will include a live Discord chat for real-time communication.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Health and Hygiene Resources:** 🏥  
+   We provide vital information on accessing healthcare, mental health, and reproductive health services.
 
-### Code Splitting
+## Targeted SDGs 🌱
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### SDG 5: Gender Equality
+<img src="./SDG5.gif" alt="SDG 5" width="100" height="100">
 
-### Analyzing the Bundle Size
+Promoting gender equality is essential for sustainable development. Our project highlights how climate change disproportionately impacts gender minorities and proposes solutions to address these disparities.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### SDG 13: Climate Action
+<img src="./SDG13.gif" alt="SDG 13" width="100" height="100">
 
-### Making a Progressive Web App
+Addressing climate change is crucial for the survival of marginalized communities. Our solutions aim to mitigate climate impacts while promoting gender equity.
+- **SDG 3: Good Health and Well-being**  
+  Providing access to healthcare resources, mental health support, and reproductive health for displaced women contributes to SDG 3, promoting well-being for all. ❤️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **SDG 17: Partnerships for the Goals**  
+  Harmony Heroes promotes collaboration between NGOs, community organizations, and global networks to ensure comprehensive support for climate refugees, aligning with SDG 17. 🤝
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Into The Future 🚀
 
-### Deployment
+### What Will Your Idea Change?
+Our project will enhance understanding of the intersection between climate change and gender inequality, leading to informed decision-making and effective solutions for affected communities.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### What Can Your Solution Do For The People?
+By addressing these intertwined issues, our project aims to empower communities to adapt and thrive in the face of climate challenges, fostering a more equitable and sustainable future.
 
-### `npm run build` fails to minify
+## Research Document 📖
+[View our Research Document here!](https://docs.google.com/document/d/1_ewDzDcnAc8N9gAm15DYi0qoPa6RER9-76BFv8OcOaU/edit?usp=sharing)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Presentation Slides 🎤
+[Check out our presentation slides here!](https://www.canva.com/design/DAFwJ9aHDQ4/DOlRCSOAgig9s_OOQrHtaw/edit?utm_content=DAFwJ9aHDQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+## Website 🌐
+[Visit our website here!](https://reconxploration.co/index.html)
+
+## Final Video 🎥
+[Watch our final video here!](https://www.youtube.com/watch?feature=shared&v=Blopp24t1p0)
+
+## Our Amazing Team 👩‍👩‍👧‍👦
+![Team](./team.png)
