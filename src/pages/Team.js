@@ -17,7 +17,7 @@ const Team = () => {
   const teamMembers = [
     { id: 1, name: 'Muhammad Inaam', img: member1Pic, linkedin: 'https://www.linkedin.com/in/muhammad-inaamullah/', country: 'PK' },
     { id: 2, name: 'Syed Shah Hussain', img: member2Pic, linkedin: 'https://www.linkedin.com/in/shahxhussain/', country: 'PK' },
-    { id: 3, name: 'Ayah Alshanfari', img: member3Pic, linkedin: 'https://www.linkedin.com/in/ayahalshanfari/', country: 'AE' },
+    { id: 3, name: 'Ayah Alshanfari', img: member3Pic, linkedin: 'https://www.linkedin.com/in/ayahalshanfari/', country: 'OM' },
     { id: 4, name: 'Hangan Diana Teodora', img: member4Pic, linkedin: 'https://www.linkedin.com/in/diana-teodora-150747272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', country: 'RO' },
     { id: 5, name: 'Lina EL AMRANI', img: member5Pic, linkedin: 'https://www.linkedin.com/in/lina-el-amrani-00b762289/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', country: 'MA' },
     { id: 6, name: 'Umama Iftikhar', img: member6Pic, linkedin: 'https://www.linkedin.com/', country: 'PK' },
