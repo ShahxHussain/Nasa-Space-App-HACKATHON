@@ -13,7 +13,7 @@ const App = () => {
   // Check if the device is mobile or desktop
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 1024); // If width is less than 1024px, it's a mobile device
+      setIsMobile(window.innerWidth < 820); // If width is less than 1024px, it's a mobile device
     };
 
     handleResize(); // Run on initial load
