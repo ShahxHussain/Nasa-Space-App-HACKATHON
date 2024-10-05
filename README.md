@@ -6,7 +6,6 @@
 
 The United Nations Sustainable Development Goals (SDGs) provide a blueprint for peace and prosperity for people and the planet. Among these goals, **SDG 5: Gender Equality** and **SDG 13: Climate Action** are crucial. This project aims to explore the intersection of climate change and gender inequality, showcasing how these issues are interlinked and proposing solutions that promote equality and sustainable development for all.
 
-![Climate and Gender](./idea.jpg)
 
 ## Problem Statement & Solution 🛠️
 
@@ -20,7 +19,7 @@ The United Nations Sustainable Development Goals (SDGs) provide a blueprint for 
 
 **Harmony Heroes** creates an interactive website that not only models the intersection of gender inequality and climate displacement but also provides resources and real-time support to affected individuals. It incorporates a 3D visualization of climate refugee data, mentorship programs, healthcare support, and a way for distributing essential hygiene products to women refugees.
 
-## **What Problem Does It Solve?**🌈
+## **What Problem Does It Solve?** 
 
 **Harmony Heroes** addresses the dual challenge of climate displacement and gender inequality by providing a comprehensive digital platform for climate refugees. Through real-time data modeling, community support, and access to essential resources, we aim to mitigate the gendered impacts of climate change and promote sustainable development.
 

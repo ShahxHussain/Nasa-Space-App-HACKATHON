@@ -11,7 +11,7 @@ import member2Pic from '../assets/shahhussain.png';
 import member3Pic from '../assets/ayah.svg';
 import member4Pic from '../assets/Diana.jpg';
 import member5Pic from '../assets/lins.jpg';
-import member6Pic from '../assets/logo.png';
+import member6Pic from '../assets/Umama.jpg';
 
 const Team = () => {
   const teamMembers = [
