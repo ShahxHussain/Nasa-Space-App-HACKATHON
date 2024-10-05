@@ -113,10 +113,10 @@ const AppRoutes = () => {
 
       {/* Show All Data Button */}
       <Button className="show-all-data-btn" onClick={handleShowAllData}>
-        Show Data
+        Show All Data
       </Button>
-      <Button className="show-insights-btn">
-        Show Insights
+       <Button className="show-all-data-btn" onClick={handleShowAllData}>
+        Show All Data
       </Button>
 
       {/* Coordinates Form Wrapper */}
