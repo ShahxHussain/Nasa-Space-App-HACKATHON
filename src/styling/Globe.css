@@ -51,4 +51,24 @@
   .coordinate-form button:hover {
     background-color: #4a6c4a;
   }
+  .info-card {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+  }
+  
+  .info-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #5ece7e;
+  }
+  
+  .info-card p {
+    margin: 5px 0;
+  }
   

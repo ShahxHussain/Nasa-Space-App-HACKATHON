@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; // For styling
 import Routing from './components/Earth';
 import Team from './pages/Team';

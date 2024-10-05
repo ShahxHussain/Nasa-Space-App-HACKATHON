@@ -17,12 +17,22 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow at the bottom */
   }
   
-  .header-left h2 {
-    margin: 0;
+  .header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    animation: zoomInOut 3s infinite; /* Smooth zoom-in and zoom-out animation */
   }
-  
+
+/* Keyframes for smooth zoom-in and zoom-out effect */
+@keyframes zoomInOut {
+  0%, 100% { transform: scale(1); } /* Normal size at the start and end */
+  50% { transform: scale(1.2); } /* Zoomed in at the middle */
+}
+
+
   .header-logo {
-    height: 70px;
+    height: 170px;
     position: relative;
     top: 5px;
     right: 33px;
@@ -34,3 +44,21 @@ body {
     font-weight: bold;
   }
   
+
+  .header-right .back-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-right .back-link:hover {
+    transform: translateX(5px); /* Moves the link 5px to the right */
+    transition: transform 0.2s ease-in-out; /* Adds a smooth transition */
+  }
+  
+  .header-right .back-icon {
+    margin-left: 8px; /* Space between the text and the right arrow icon */
+    font-size: 1.2rem;
+  }
