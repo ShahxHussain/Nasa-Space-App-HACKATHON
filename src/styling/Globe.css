@@ -51,15 +51,17 @@
   .coordinate-form button:hover {
     background-color: #4a6c4a;
   }
+
+  
   .info-card {
     position: absolute;
-    top: 50px;
-    right: 20px;
+    top: 190px;
+    right: 490px; /* Adjust this value as necessary for your layout */
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 10px;
-    width: 250px;
+    width: 300px; /* Adjust the width here to your desired value */
   }
   
   .info-card h3 {
@@ -70,5 +72,16 @@
   
   .info-card p {
     margin: 5px 0;
+  }
+  
+  .close-info-card {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white; /* Change to match your theme */
   }
   

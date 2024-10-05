@@ -14,10 +14,10 @@ const Sidebar = () => {
       {menuOpen && (
         <div className="menu">
           <Link to="/ourmission">Our Mission</Link>
-          <Link to="/healthsupport">Health Support</Link>
-          <Link to="/help">Receive Help</Link>
+          {/* <Link to="/healthsupport">Health Support</Link> */}
+          {/* <Link to="/help">Receive Help</Link> */}
           <Link to="/Discordgroup">Discord Group</Link>
-          <Link to="/contact">Contact Us</Link>
+          {/* <Link to="/contact">Contact Us</Link> */}
           <Link to="/team">Team</Link>
         </div>
       )}

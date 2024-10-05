@@ -13,6 +13,8 @@ const AppRoutes = () => {
   const [longitude, setLongitude] = useState('');
   const [infoCard, setInfoCard] = useState(null);
   const globeEl = useRef();
+  
+  const initialGlobePosition = { lat: 0, lng: 0, altitude: 1.5 }; // Define your initial position here
 
   // Load Excel Data
   const handleShowAllData = () => {
@@ -63,6 +65,7 @@ const AppRoutes = () => {
       const [lat, lon] = latLonString.split(',').map(parseFloat);
       return Math.abs(lat - latitude) < 0.1 && Math.abs(lon - longitude) < 0.1; // Allow slight differences
     });
+
     if (foundData) {
       setInfoCard({
         name: foundData.Name,
@@ -71,68 +74,92 @@ const AppRoutes = () => {
         reason: foundData['Reason for Migration'],
         distance: foundData['Distance Covered (km)'],
       });
+      // Rotate the globe only if data is found
+      if (globeEl.current) {
+        globeEl.current.pointOfView({ lat: latitude, lng: longitude, altitude: 1.5 }, 1000);
+      }
     } else {
       setInfoCard(null);
       alert('No data found for the provided coordinates.');
+      // Reset the globe position if no data is found
+      if (globeEl.current) {
+        globeEl.current.pointOfView(initialGlobePosition, 1000);
+      }
     }
   };
 
   // Handle Globe rotation and submission
   const handleSubmitCoordinates = (e) => {
     e.preventDefault();
-    if (globeEl.current) {
-      globeEl.current.pointOfView({ lat: latitude, lng: longitude, altitude: 1.5 }, 1000); 
-    }
     handleSearchCoordinates();
+  };
+
+  // Handle closing the info card
+  const handleCloseInfoCard = () => {
+    setInfoCard(null);
+    setLatitude(''); // Reset latitude input
+    setLongitude(''); // Reset longitude input
+    // Reset the globe to its initial position
+    if (globeEl.current) {
+      globeEl.current.pointOfView(initialGlobePosition, 1000);
+    }
   };
 
   return (
     <div className="app">
       <Sidebar />
-      <Globe infoCard={infoCard} globeRef={globeEl} />
+      <Globe globeRef={globeEl} />
       <BottomButtons />
 
       {/* Show All Data Button */}
       <Button className="show-all-data-btn" onClick={handleShowAllData}>
-        Show All Data
+        Show Data
+      </Button>
+      <Button className="show-insights-btn">
+        Show Insights
       </Button>
 
-      {/* Coordinates Form */}
-      <Form onSubmit={handleSubmitCoordinates} className="coordinate-form">
-        <Form.Group controlId="latitudeInput">
-          <Form.Label>Latitude</Form.Label>
-          <Form.Control
-            type="number"
-            value={latitude}
-            onChange={(e) => setLatitude(parseFloat(e.target.value))}
-            required
-            step="0.01"
-            min="-90"
-            max="90"
-          />
-        </Form.Group>
+      {/* Coordinates Form Wrapper */}
+      <div className="coordinate-form-wrapper">
+        <Form onSubmit={handleSubmitCoordinates} className="coordinate-form">
+          <Form.Group controlId="latitudeInput">
+            <Form.Label style={{ color: "white" }}>Latitude</Form.Label>
+            <Form.Control
+              type="number"
+              value={latitude}
+              onChange={(e) => setLatitude(parseFloat(e.target.value))}
+              required
+              step="0.01"
+              min="-90"
+              max="90"
+            />
+          </Form.Group>
 
-        <Form.Group controlId="longitudeInput">
-          <Form.Label>Longitude</Form.Label>
-          <Form.Control
-            type="number"
-            value={longitude}
-            onChange={(e) => setLongitude(parseFloat(e.target.value))}
-            required
-            step="0.01"
-            min="-180"
-            max="180"
-          />
-        </Form.Group>
+          <Form.Group controlId="longitudeInput">
+            <Form.Label style={{ color: "white" }}>Longitude</Form.Label>
+            <Form.Control
+              type="number"
+              value={longitude}
+              onChange={(e) => setLongitude(parseFloat(e.target.value))}
+              required
+              step="0.01"
+              min="-180"
+              max="180"
+            />
+          </Form.Group>
 
-        <Button type="submit" variant="primary">
-          Go to Coordinates
-        </Button>
-      </Form>
+          <Button type="submit" variant="primary">
+            Go to Coordinates
+          </Button>
+        </Form>
+      </div>
 
       {/* Info Card */}
       {infoCard && (
         <div className="info-card">
+          <Button className="close-info-card" onClick={handleCloseInfoCard} style={{ float: 'right' }}>
+            &times; {/* Cross Button */}
+          </Button>
           <h3>Migration Information</h3>
           <p><strong>Name:</strong> {infoCard.name}</p>
           <p><strong>Country Migrated From:</strong> {infoCard.fromCountry}</p>
