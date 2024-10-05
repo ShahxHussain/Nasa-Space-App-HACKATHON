@@ -1,5 +1,6 @@
-# <img src="src/assets/logo.png" alt="Logo" width="120" height="120"> 
+ 
 # <p align="center"><b>Harmony Heroes: Bridging Gender Equality and Climate Action</b></p>
+# <img src="src/assets/ReadmeLogo.png" alt="Logo">
 
 ## Introduction 🌍
 
