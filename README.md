@@ -92,7 +92,7 @@ By addressing these intertwined issues, our project aims to empower communities 
 [Visit our website here!](https://harmony-heroes.vercel.app/)
 
 ## Final Video 🎥
-[Watch our final video here!](https://www.youtube.com/watch?feature=shared&v=Blopp24t1p0)
+[Watch our final video here!]()
 
 ## Our Amazing Team 👩‍👩‍👧‍👦
 <img src="src/assets/team.png" alt="SDG 17" >
