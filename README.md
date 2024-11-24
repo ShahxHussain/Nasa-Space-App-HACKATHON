@@ -83,10 +83,10 @@ Our project will enhance understanding of the intersection between climate chang
 By addressing these intertwined issues, our project aims to empower communities to adapt and thrive in the face of climate challenges, fostering a more equitable and sustainable future.
 
 ## Research Document 📖
-[View our Research Document here!](https://docs.google.com/document/d/1_ewDzDcnAc8N9gAm15DYi0qoPa6RER9-76BFv8OcOaU/edit?usp=sharing)
+[View our Research Document here!](https://drive.google.com/file/d/1vCoi1i2jDCfKnCEeo7w42QMTQQiICFKU/view?usp=sharing)
 
 ## Presentation Slides 🎤
-[Check out our presentation slides here!](https://www.canva.com/design/DAFwJ9aHDQ4/DOlRCSOAgig9s_OOQrHtaw/edit?utm_content=DAFwJ9aHDQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Check out our presentation slides here!](https://drive.google.com/file/d/1x5Hhx7eCJfDfheb2qK2uzIznVTYiNaAY/view?usp=sharing)
 
 ## Website 🌐
 [Visit our website here!](https://harmony-heroes.vercel.app/)
